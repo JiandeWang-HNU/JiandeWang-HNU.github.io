@@ -1,0 +1,132 @@
+<section id="home_section_top" class="home-section" style="background-image: url({{"images/design/home-bg.jpg" | relURL }})">
+  <div class="overlay"></div>
+  {{/*<div class="mobile-fix">
+    <img class="mobile-background" src="images/Home-bg-enhanced-mobile.jpg" alt="Background of silk cocoons" width="499" height="800">
+  </div>*/}}
+
+  <div class="home-content-table">
+    <div class="home-content-tablecell">
+      <div class="lab-name">{{ site.Title }}</div>
+      <div class="lab-desc">
+        <h3 class="animate-intro fadeInUp animated"> Welcome to the future of materials </h3>
+        <h3 class="animate-intro fadeInUp animated">Technology from the planet. for the planet.</h3>
+      </div> <!-- end col-twelve -->
+    </div>
+    <!-- end row -->
+  </div> <!-- end home-content-tablecell -->
+  <!-- end home-content-table -->
+
+  {{/*<div class="scrolldown">
+    <a href="home.html#about" class="scroll-icon smoothscroll">Scroll Down<i class="fa fa-long-arrow-right" aria-hidden="true"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    </a>
+  </div>*/}}
+
+</section>
+
+
+
+
+<section id="home_section_about"  class="home-section">
+  <div class="row about-wrap">
+    <div class="col-full">
+
+      <div class="about-profile-bg"></div>
+
+      <div class="intro">
+        <h3 class="">About Us</h3>
+        <div class="lead ">
+          {{.Params.about_us | markdownify}}
+        </div>
+       {{/* <p class="lead "><span>Silklab</span> is reimagining natural materials for advanced technology, <br>
+          global health, and our planet's future.&nbsp; &nbsp;</p>
+        <p class="lead ">Biomaterials fill the gap between nature and technology turning materials into "living materials."&nbsp;</p>
+        <p class="lead ">&nbsp;</p>*/}}
+      </div>
+
+
+
+
+
+    </div> <!-- end col-full  -->
+  </div> <!-- end about-wrap  -->
+
+</section>
+
+
+
+
+
+<section id="home_section_services"  class="home-section"  style="background-image: url({{"images/design/service-bg.jpg" | relURL }})">
+
+  <div class="overlay"></div>
+  <div class="gradient-overlay"></div>
+
+  <div class="row narrow section-intro with-bottom-sep ">
+    <div class="col-full">
+
+      <h3>living materials at the interface between technology and life sciences&nbsp;</h3>
+
+      <p class="lead">Structural proteins are nature’s building blocks, conferring stiffness, structure, and function to ordinarily soft biological materials. Such proteins are polymorphic which allows us to control the end material format through self-assembly. <br> <br> These biomaterials provide a unique opportunity by being simultaneously “technological” (e.g. mechanically robust, micro- and nanostructured, high-performing) and “biological” (e.g. living, adaptable, bio-functional) making them ideally suited for applications at the interface between these two domains. <br> <br>Our goal is to provide innovation for new advanced material processing and manufacturing based on sustainable carbon-neutral technologies, and imagine a new class of applications for living materials that operate seamlessly at the interface between the biological and technological worlds.</p>
+
+    </div> <!-- end col-full -->
+  </div> <!-- end row -->
+
+  <div class="row services-content">
+
+    <div class="services-list row">
+
+      <div class="bgrid service-item col-12 col-md-6">
+
+        <span class="icon"><i class="fa fa-flask"></i></span>
+
+        <div class="service-content">
+          <h3 class="h05"><a href="research.html">Research</a></h3>
+
+          <p>Our themes are transdisciplinary, with work that spans materials science, micro/nanotechnology, sensing, wearables, biomedical devices, optics and photonics, and design and art.&nbsp; &nbsp; &nbsp; &nbsp;</p>
+        </div>
+
+      </div> <!-- end bgrid -->
+
+      <div class="bgrid service-item col-12 col-md-6 ">
+
+        <span class="icon"><i class="fa fa-solid fa-book"></i> </span>
+
+        <div class="service-content">
+          <h3 class="h05"><a href="publications.html">Publications</a></h3>
+          <p>Explore the latest publications from our lab and our collaborators around the world.
+          </p>
+
+        </div>
+
+      </div> <!-- end bgrid -->
+
+      <div class="bgrid service-item col-12 col-md-6 ">
+
+        <span class="icon"><i class="fa-solid fa-globe"></i> </span>
+
+        <div class="service-content">
+          <h3 class="h05"><a href="people.html">People</a></h3>
+          <p>None of this would be possible without our talented group of researchers, colleagues, and partners.
+          </p>
+        </div>
+
+      </div> <!-- end bgrid -->
+
+      <div class="bgrid service-item col-12 col-md-6 ">
+
+        <span class="icon"><i class="fa-solid fa-bullhorn"></i></span>
+
+        <div class="service-content">
+          <h3 class="h05"><a href="news.html">news and media</a></h3>
+          <p>Selected coverage and media <br>
+            from outlets across the globe.
+          </p>
+        </div>
+
+      </div> <!-- end bgrid -->
+
+    </div> <!-- end services-list -->
+
+  </div> <!-- end services-content -->
+
+</section>

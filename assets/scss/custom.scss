@@ -1,0 +1,308 @@
+
+// Override this file to add your own SCSS styling.
+
+$max_width: 1440px;
+$primary_text_color: #7ABFF7;
+
+
+/* 红黑主色定义 - 背景整体提亮，保留红黑强烈对比 */
+:root {
+}
+
+
+
+@font-face {
+  font-family: "montserrat-regular";
+  src: url("../fonts/Montserrat-Regular.ttf") format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: montserrat-regular,  serif ;
+}
+
+html, body {
+
+  //font-family: montserrat,PingFang SC,Microsoft YaHei,微软雅黑,STXihei,华文细黑,sans-serif;
+  font-family: montserrat-regular,  serif ;
+  //font-size: 18px;
+  //color: #000;
+  //background-color: #f2f2f2;
+  //height: 100%;
+
+}
+
+
+
+
+
+.site-wrapper, .page-body {
+  //height: 100%;
+}
+
+
+
+
+
+
+
+
+
+#navbar-main .main-menu-item ul li .nav-link {
+
+}
+
+
+.header--fixed {
+  //position: sticky;
+  position: fixed;
+}
+
+.navbar {
+  //background:transparent;
+  background: #e6e6e6;
+}
+
+
+
+.home-section:first-of-type {
+  padding-top: 20px;
+}
+.home-section {
+  padding: 1rem 0;
+}
+
+#home_section_top {
+  height: 100vh;
+  background-color: #151515;
+  //background-image: url(images/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 804px;
+  position: relative;
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-color: #19191b;
+  }
+  .home-content-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: relative;
+    text-align: center;
+  }
+
+  .home-content-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 500;
+    .lab-name {
+      font-weight: bold;
+      font-size: 2.5rem;
+      color: white;
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 1.35rem;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: .3rem;
+      margin: 0 0 .9rem 0;
+    }
+  }
+
+}
+
+#home_section_about  {
+  background-color: #FFFFFF;
+  min-height: 700px;
+  text-align: center;
+  .about-wrap {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  h3 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgba(65, 125, 193, 1.0);
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    position: relative;
+  }
+  h3::before {
+    display: block;
+    content: "";
+    width: 3px;
+    height: 5rem;
+    background-color: rgba(149, 149, 149, 0.7);
+    margin: 1rem auto ;
+  }
+  .lead {
+
+    font-size: 2rem;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 3rem;
+  }
+}
+
+
+#home_section_services {
+  background-color: #19191b;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  min-height: 800px;
+  position: relative;
+
+  color: rgba(255, 255, 255, 0.3);
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.7);
+  }
+
+  .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
+  }
+
+
+  .section-intro.with-bottom-sep {
+    max-width: 800px;
+    padding-bottom: /*4.2rem; 1.0rem;*/ 0;
+    position: relative;
+    height: auto;
+    margin: auto;
+  }
+  .services-content {
+    text-align: center;
+  }
+  .lead {
+    color: rgb(153, 153, 153);
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: center;
+    font-size: 1rem;
+  }
+  .section-intro {
+
+    h3 {
+      font-weight: bold;
+      font-size: 1rem;
+      color: rgb(204, 204, 204);
+      text-transform: uppercase;
+      letter-spacing: .3rem;
+      padding: 6rem 0;
+      line-height: 1.5rem;
+      text-align: center;
+    }
+  }
+
+  .section-intro.with-bottom-sep::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 300px;
+    position: relative;
+    background-color: #666666;
+    text-align: center;
+    margin: 3rem auto;
+  }
+
+  .services-list {
+    margin: 0 auto;
+    max-width: 1040px;
+    .service-item {
+      margin-bottom: 3rem;
+      padding: 0 50px;
+      color: rgb(153, 153, 153);
+       .icon {
+        display: inline-block;
+         font-size: 2rem;
+         color: #7ABFF7;
+
+      }
+
+       .h05 {
+        font-size: 1rem;
+        margin-bottom: 3rem;
+         text-transform: uppercase;
+         letter-spacing: .2rem;
+         a {color: #1a1a1a;}
+         a:hover {
+           color: $primary_text_color;
+           text-decoration: none;
+         }
+      }
+    }
+  }
+
+}
+
+
+
+.carousel-control-next, .carousel-control-prev {
+}
+
+
+
+
+
+/* 页脚点缀 */
+.footer {
+  text-align: center;
+  padding: 0 0 1rem 0;
+}
+
+
+
+
+#section-news {
+
+
+}
+
+#section-members {
+
+
+
+
+}
+
+
+.site-footer .powered-by {
+  display: none;
+}
+
+
+// 手机
+@media (max-width: 478px) {
+
+}
+
+
