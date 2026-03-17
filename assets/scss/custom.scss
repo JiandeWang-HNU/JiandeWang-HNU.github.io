@@ -314,6 +314,47 @@ html, body {
 }
 
 
+// 内页内容宽度
+@media only screen and (min-width: 1001px) {
+  .universal-wrapper {
+    width: 1200px;
+  }
+}
+
+
+.inner-page-header {
+  margin-top: 5rem;
+}
+
+
+.page-publications {
+  .paper-item{
+    border-top: 1px solid #e2e8f0;
+    padding: 3rem 0;
+  }
+  .pub-title{
+    font-weight: bold;
+  }
+  .pub-author {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+  }
+  .pub-journal {
+    font-size: 0.85rem;
+  }
+  .j-name {
+    font-style: italic;
+  }
+  .p-year {
+    font-weight: bold;
+  }
+}
+
+
+
+
+
+
 
 
 
