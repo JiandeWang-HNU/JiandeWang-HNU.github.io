@@ -359,6 +359,12 @@ html, body {
     border-top: 1px solid #e2e8f0;
     padding: 2rem 0;
   }
+  .p-avatar {
+    img {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
   .p-name {
     font-weight: bold;
     font-size: 1.1rem;
