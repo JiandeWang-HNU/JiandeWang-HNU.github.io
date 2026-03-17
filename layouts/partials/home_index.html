@@ -62,14 +62,32 @@
   <div class="gradient-overlay"></div>
 
   <div class="row narrow section-intro with-bottom-sep ">
-    <div class="col-full">
 
-      <h3>living materials at the interface between technology and life sciences&nbsp;</h3>
 
-      <p class="lead">Structural proteins are nature’s building blocks, conferring stiffness, structure, and function to ordinarily soft biological materials. Such proteins are polymorphic which allows us to control the end material format through self-assembly. <br> <br> These biomaterials provide a unique opportunity by being simultaneously “technological” (e.g. mechanically robust, micro- and nanostructured, high-performing) and “biological” (e.g. living, adaptable, bio-functional) making them ideally suited for applications at the interface between these two domains. <br> <br>Our goal is to provide innovation for new advanced material processing and manufacturing based on sustainable carbon-neutral technologies, and imagine a new class of applications for living materials that operate seamlessly at the interface between the biological and technological worlds.</p>
+    <div class="biography row">
+      <div class="float-text ">
+        <img class="person-img" src="{{"images/person.jpg" | relURL }}" alt="" />
+        {{.Params.biography | markdownify}}
+      </div>
+    </div>
 
-    </div> <!-- end col-full -->
+
+    {{/*<div class="biography row">
+      <div class="col-12 col-md-6">
+        <img  class="person-img"  src="{{"images/person.jpg" | relURL }}" alt="" />
+      </div>
+      <div class="col-12 col-md-6">
+        {{.Params.biography | markdownify}}
+      </div>
+    </div>*/}}
+
+
+
+
+
   </div> <!-- end row -->
+
+  <div class="separator-line row"></div>
 
   <div class="row services-content">
 
