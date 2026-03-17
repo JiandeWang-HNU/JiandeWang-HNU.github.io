@@ -351,7 +351,33 @@ html, body {
 }
 
 
+.members-list-page{
+  .group-name {
+    color: #417dc1;
+  }
+  .team-person-row{
+    border-top: 1px solid #e2e8f0;
+    padding: 2rem 0;
+  }
+  .p-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  .p-group {
+    font-size: 0.8rem;
+    margin: 1rem 0 0 0;
+  }
+  .p-university {
+    font-size: 0.8rem;
+    margin: 1rem 0;
+  }
+  .p-email {
+    font-size: 1rem;
+  }
 
+
+
+}
 
 
 

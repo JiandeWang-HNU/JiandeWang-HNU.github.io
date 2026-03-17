@@ -3,16 +3,80 @@ member_groups:
   - key: professor
     name: Professor
 
-  - key: associate_researcher
-    name: Associate Researcher
+  - key: phd
+    name: Ph.D. Candidate
 
-  - key: postdoctoral_fellows
-    name: Postdoctoral Fellow
+  - key: ms
+    name: M.S. Candidate
 
-  - key: phd_students
-    name: PhD Student
+  - key: undergraduate
+    name: Undergraduate Student
 
-  - key: master_students
-    name: Master Student
 
-members:
+team_members:
+
+  - name: "JIANDE WANG"
+    group: "professor"
+    university: "B.S.-M.S. Hunan University; Ph.D. UCLouvain; Postdoc. MIT"
+    email: "jiandewang@hnu.edu.cn"
+    avatar: "images/members/placeholder.jpg"
+
+  - name: "JIANAN NIU"
+    group: "phd"
+    university: "M.S. OCEAN UNIVERSITY OF CHINA, MSE"
+    email: "niujianan@hnu.edu.cn"
+    avatar: "images/members/placeholder.jpg"
+
+  - name: "YIXIAO WU"
+    group: "phd"
+    university: "M.S. ZHENGZHOU UNIVERSITY, MSE"
+    email: "wyixiao@hnu.edu.cn"
+    avatar: "images/members/placeholder.jpg"
+
+  - name: "ZHIRONG DU"
+    group: "ms"
+    university: "B.S. TAIYUAN UNIVERSITY OF TECHNOLOGY, MSE"
+    email: "dzr476406226@hnu.edu.cn"
+    avatar: "images/members/placeholder.jpg"
+
+  - name: "JIAQI LUO"
+    group: "ms"
+    university: "B.S. HENAN POLYTECHNIC UNIVERSITY, MSE"
+    email: "Luojiaqi@hnu.edu.cn"
+    avatar: "images/members/placeholder.jpg"
+
+  - name: "TING REN"
+    group: "phd"
+    university: "M.S. INNER MONGOLIA UNIVERSITY, M.CHEM"
+    email: "13121744620@163.com"
+    avatar: "images/members/placeholder.jpg"
+
+  - name: "XINYA ZHANG"
+    group: "phd"
+    university: "M.S. INNER MONGOLIA UNIVERSITY, M.CHEM"
+    email: "18355888320@163.com"
+    avatar: "images/members/placeholder.jpg"
+
+  - name: "XINYI LI"
+    group: "ms"
+    university: "B.S. HUBEI UNIVERSITY, MSE"
+    email: "19872089560@163.com"
+    avatar: "images/members/placeholder.jpg"
+
+  - name: "JIAHAO WU"
+    group: "ms"
+    university: "B.S. TIANGONG UNIVERSITY, NME"
+    email: "wujiahao2026@163.com"
+    avatar: "images/members/placeholder.jpg"
+
+  - name: "MING MA"
+    group: "undergraduate"
+    university: "B.S. HUNAN UNIVERSITY, MSE"
+    email: "Maming@hnu.edu.cn"
+    avatar: "images/members/placeholder.jpg"
+
+  - name: "XIANG CHENG"
+    group: "undergraduate"
+    university: "B.S. HUNAN UNIVERSITY, MSE"
+    email: "cxiang@hnu.edu.cn"
+    avatar: "images/members/placeholder.jpg"
