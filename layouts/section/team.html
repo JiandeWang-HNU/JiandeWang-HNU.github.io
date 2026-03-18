@@ -35,6 +35,7 @@
               <div class="p-group"><i class="fas fa-user-tag"></i> {{ $g_item.name | markdownify }}</div>
               <div class="p-university"><i class="fas fa-landmark"></i> {{ $m_item.university | markdownify }}</div>
               <div class="p-email"><i class="fas fa-envelope"></i> {{ $m_item.email | markdownify }}</div>
+              {{with $m_item.gc_link}}<div class="p-gc-link"><i class="ai ai-google-scholar"></i> <a href="{{ . }}" target="_blank"> Google Scholar</a></div>{{ end }}
             </div>
           </div>
 
