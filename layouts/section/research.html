@@ -12,15 +12,41 @@
   <div class="research-list-wrap">
       {{ range $index, $item := .Params.research_list }}
 
-        <div class="research-item r-index{{$index}} row align-items-center">
+        <div class="research-item r-index{{$index}} row  ">
 
-          <div class="col-12 col-md-6 r-img">
+          <div class="col-12 col-md-6  r-img">
             <img alt="" src="{{ $item.image | relURL }}"/>
           </div>
 
-          <div class="col-12 col-md-6 rc-wrap">
+          <div class="col-12 col-md-6   rc-wrap">
             <div class="r-title">{{$item.title | markdownify}}</div>
             <div class="r-content">{{$item.content | markdownify}}</div>
+          </div>
+
+
+        </div>
+
+      {{ end }}
+  </div>
+
+
+  <h1 class="funding-title">Funding & Grants</h1>
+  <div class="fund-list-wrap">
+      {{ range $index, $item := .Params.funding }}
+
+        <div class="funding-item f-index{{$index}} row  ">
+
+          <div class="col-12 col-md-3  f-period">
+             <div class="p-text-wrap">{{$item.period | markdownify}}</div>
+          </div>
+
+          <div class="col-12 col-md-9   f-content">
+            <div class="f-title">{{$item.title | markdownify}}</div>
+            <ul class="f-list">
+              <li>{{$item.grant | markdownify}}</li>
+              <li>{{$item.role | markdownify}}</li>
+              <li>{{$item.amount | markdownify}}</li>
+            </ul>
           </div>
 
 
