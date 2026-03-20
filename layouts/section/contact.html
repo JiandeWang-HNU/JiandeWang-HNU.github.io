@@ -1,0 +1,26 @@
+{{- define "main" -}}
+
+
+{{ partial "page_header.html" . }}
+
+{{/*<div class="news-page-bg1 d-flex justify-content-center align-items-center"
+     style="background-image: url({{"images/design/news-bg.webp" | relURL }}")>
+    <h1 class="news-page-title">{{.Title}}</h1>
+</div>*/}}
+<div class="  mt-5 page-contact">
+  {{ with .Content }}
+    <div class="t-content1">{{ . }}</div>
+  {{ end }}
+
+
+  <div class="map-wrap row">
+       <div class="col-12 col-md-8 m-map">
+         <img alt="" src="{{"images/contact/map.png" | relURL}}" />
+       </div>
+       <div class="col-12 col-md-4 m-contact ">
+         <div class="m-addr">{{.Params.contact_info | markdownify}}</div>
+       </div>
+  </div>
+</div>
+
+{{- end -}}
