@@ -389,6 +389,52 @@ html, body {
 
 }
 
+.news-page-bg1 {
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 500px;
+  background-position: center;
+  h1 {
+    color: #FFFFFF;
+  }
+}
+.page-news-list{
+  .news-item{
+    background-color: rgba(223, 224, 225, 0.5);
+    padding: 1rem;
+    font-weight: bold;
+    margin: 2rem 0;
+    .news-date {
+      color: #7ABFF7;
+    }
+    .news-title {
+
+    }
+  }
+}
+
+
+.page-research {
+
+  .research-item{
+    margin: 2rem 0 5rem 0;
+    .r-title {
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+  }
+  .r-img {
+    margin-bottom: 1rem;
+  }
+  // 偶数行
+  .research-item:nth-of-type(even) {
+    .r-img {
+      order: 2; // 图片在右边
+    }
+  }
+}
+
+
 
 
 
@@ -429,6 +475,16 @@ html, body {
         float: none;
         width: 100%;
         margin: 0;
+      }
+    }
+  }
+
+
+  .page-research {
+
+    .research-item:nth-of-type(even) {
+      .r-img {
+        order: unset; // 图片在右边
       }
     }
   }

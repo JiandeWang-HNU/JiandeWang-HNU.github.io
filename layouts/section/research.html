@@ -2,26 +2,36 @@
 
 {{ partial "page_header.html" . }}
 
-<div class="universal-wrapper mt-5">
+<div class="universal-wrapper mt-5 page-research">
   {{ with .Content }}
     <div class="article-style">{{ . }}</div>
   {{ end }}
 
 
-  {{ if templates.Exists (printf "partials/views/%s-start.html" (lower $.Params.view | default "compact")) }}
-    {{ partial "functions/render_view" (dict "page" $ "item" . "view" (printf "%s-start" $.Params.view) "index" 0) }}
-  {{ end }}
 
-  {{ $paginator := .Paginate .Pages }}
-  {{ range $index, $post := $paginator.Pages }}
-    {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "compact") "index" $index) }}
-  {{end}}
+  <div class="research-list-wrap">
+      {{ range $index, $item := .Params.research_list }}
 
-  {{ if templates.Exists (printf "partials/views/%s-end.html" (lower $.Params.view | default "compact")) }}
-    {{ partial "functions/render_view" (dict "page" $ "item" . "view" (printf "%s-end" $.Params.view) "index" 0) }}
-  {{ end }}
+        <div class="research-item r-index{{$index}} row align-items-center">
 
-  {{ partial "pagination" . }}
+          <div class="col-12 col-md-6 r-img">
+            <img alt="" src="{{ $item.image | relURL }}"/>
+          </div>
+
+          <div class="col-12 col-md-6 rc-wrap">
+            <div class="r-title">{{$item.title | markdownify}}</div>
+            <div class="r-content">{{$item.content | markdownify}}</div>
+          </div>
+
+
+        </div>
+
+      {{ end }}
+  </div>
+
+
+
+
 </div>
 
 {{- end -}}
