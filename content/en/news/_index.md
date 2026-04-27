@@ -4,7 +4,7 @@ title: Latest News
  
  
 news_list:
-   - date: April 27, 2026
+  - date: April 27, 2026
     title: A very warm welcome to three undergraduate students joining the lab: Xiang Cheng, Jingzhe Zhao and Ming Ma!
   
   - date: March 15, 2026
