@@ -1,7 +1,7 @@
 member_groups:
 
   - key: professor
-    name: Professor
+    name: Principal Investigator
 
   - key: phd
     name: Ph.D. Candidate
