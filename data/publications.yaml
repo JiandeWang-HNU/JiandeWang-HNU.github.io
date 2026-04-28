@@ -53,8 +53,35 @@
 
 
 - title: "High performance Li-, Na-, and K-ion storage in electrically conducting coordination polymers"
-  authors_text: "Jiande Wang, Xiaolong Guo, Petru Apostol, Xuelian Liu,  Koen Robeyns, Loïk Gence, Cristian Morari, Jean-Francois Gohy, Alexandru Vlad*"
+  authors_text: "Jiande Wang, Xiaolong Guo, Petru Apostol, Xuelian Liu, Koen Robeyns, Loïk Gence, Cristian Morari, Jean-Francois Gohy, Alexandru Vlad*"
   journal: "Energy & Environmental Science 15, 3923-3932"
   year: 2022
   image: "images/publications/p7.jpg"
+  link: "https://pubs.rsc.org/en/content/articlelanding/2022/ee/d2ee00566b"
+
+
+
+- title: "A High-Voltage Organic Framework for High-Performance Na- and K-Ion Batteries"
+  authors_text: "Jiande Wang, Xuelian Liu, He Jia, Petru Apostol, Xiaolong Guo, Fabio Lucaccioni, Xiaozhe Zhang, Qi Zhu, Cristian Morari, Jean-Francois Gohy, Alexandru Vlad*"
+  journal: "ACS Energy Letters 7, 2, 668–674"
+  year: 2022
+  image: "images/publications/p8.jpg"
+  link: "https://pubs.acs.org/doi/abs/10.1021/acsenergylett.1c02571"
+
+
+
+- title: "Unlocking the Electrochemistry and the Activation Mechanism in the Iron-Rich Na0.6Fe1.2PO4 Phase for High-Performance Sodium-Ion Storage"
+  authors_text: "Xuelian Liu†, Jiande Wang†, Mengyuan Du, Qi Zhu, Koen Robeyns, Xiaozhe Zhang, Varun Kumar, Jean-Francois Gohy, Yann Garcia, Alexandru Vlad*"
+  journal: "Batteries & Supercaps 5, e202100390"
+  year: 2022
+  image: "images/publications/p9.jpg"
+  link: "https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/batt.202100390"
+
+
+
+- title: "Validating the reversible redox of alkali-ion disulfonyl-methanide as organic positive electrode materials"
+  authors_text: "Yan Zhang, Petru Apostol, Xiaolong Guo, Xuelian Liu, Darsi Rambabu, Jiande Wang*, Xiaohua Chen*, Alexandru Vlad*"
+  journal: "Materials Today Chemistry 28, 101379"
+  year: 2023
+  image: "images/publications/p10.jpg"
   link: "https://pubs.rsc.org/en/content/articlelanding/2022/ee/d2ee00566b"
