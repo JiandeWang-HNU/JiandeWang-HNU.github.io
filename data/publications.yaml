@@ -45,7 +45,7 @@
 
 - title: "New Cathode Materials in the Fe-PO4-F Chemical Space for High-Performance Sodium-Ion Storage"
   authors_text: "Xuelian Liu†, Jiande Wang†, Mengyuan Du, Koen Robeyns, Yaroslav Filinchuk, Qi Zhu, Varun Kumar, Yann Garcia, Gheorghe Borodi, Cristian Morari, Jean-Francois Gohy, Alexandru Vlad"
-  journal: "Advanced Science 9, 2200924 "
+  journal: "Advanced Science 9, 2200924"
   year: 2022
   image: "images/publications/p3.png"
   link: "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202200924"
@@ -85,3 +85,192 @@
   year: 2023
   image: "images/publications/p10.jpg"
   link: "https://www.sciencedirect.com/science/article/pii/S246851942300006X"
+
+
+  
+- title: "Revealing the reversible solid-state electrochemistry of lithium-containing conjugated oximates for organic batteries"
+  authors_text: "Jiande Wang, Petru Apostol, Darsi Rambabu, Xiaolong Guo, Xuelian Liu, Koen Robeyns, Mengyuan Du, Yan Zhang, Shubhadeep Pal, Robert Markowski, Fabio Lucaccioni, Alae Eddine Lakraychi, Cristian Morari, Jean-François Gohy, Deepak Gupta*, Alexandru Vlad*"
+  journal: "Science advances 9 (17), eadg6079"
+  year: 2023
+  image: "images/publications/10.png"
+  link: "https://www.science.org/doi/abs/10.1126/sciadv.adg6079"
+
+
+
+- title: "Bimetallic Anionic Organic Frameworks with Solid‐State Cation Conduction for Charge Storage Applications"
+  authors_text: "Yan Zhang, Jiande Wang*, Petru Apostol, Darsi Rambabu, Alae Eddine Lakraychi, Xiaolong Guo, Xiaozhe Zhang, Xiaodong Lin, Shubhadeep Pal, Vasudeva Rao Bakuru, Xiaohua Chen*, Alexandru Vlad*"
+  journal: "Angewandte Chemie International Edition 62 (42), e202310033"
+  year: 2023
+  image: "images/publications/11.png"
+  link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202310033"
+
+
+
+- title: "Towards the 4 V-class n-type organic lithium-ion positive electrode materials: the case of conjugated triflimides and cyanamides"
+  authors_text: "Xiaolong Guo, Petru Apostol, Xuan Zhou, Jiande Wang, Xiaodong Lin, Darsi Rambabu, Mengyuan Du, Süleyman Er, Alexandru Vlad*"
+  journal: "Energy & Environmental Science 17 (1), 173-182"
+  year: 2024
+  image: "images/publications/12.png"
+  link: "https://doi.org/10.1039/d3ee02897f"
+
+
+
+- title: "A dicarbonate solvent electrolyte for high performance 5 V-Class Lithium-based batteries"
+  authors_text: "Xiaozhe Zhang, Pan Xu, Jianing Duan, Xiaodong Lin*, Juanjuan Sun, Wenjie Shi, Hewei Xu, Wenjie Dou, Qingyi Zheng, Ruming Yuan, Jiande Wang, Yan Zhang, Shanshan Yu, Zehan Chen, Mingsen Zheng, Jean-François Gohy, Quanfeng Dong*, Alexandru Vlad*"
+  journal: "Nature Communications 15 (1), 536"
+  year: 2024
+  image: "images/publications/13.png"
+  link: "https://www.nature.com/articles/s41467-024-44858-3"
+
+
+
+- title: "Enhanced redox storage and diverse intercalation in layered metal organic frameworks with a staggered stacking mode"
+  authors_text: "Satya Prakash Suman, Gopi MR Dontireddy, Tianyang Chen, Jiande Wang, Jin-Hu Dou, Harish Banda*"
+  journal: "ACS Energy Letters 9 (4), 1572-1580"
+  year: 2024
+  image: "images/publications/14.png"
+  link: "https://pubs.acs.org/doi/abs/10.1021/acsenergylett.4c00544"
+
+
+
+- title: "A layered organic cathode for high-energy, fast-charging, and long-lasting Li-ion batteries"
+  authors_text: "Tianyang Chen, Harish Banda, Jiande Wang, Julius J Oppenheim, Alessandro Franceschi, Mircea Dincǎ*"
+  journal: "ACS Central Science 10 (3), 569-578"
+  year: 2024
+  image: "images/publications/15.png"
+  link: "https://pubs.acs.org/acscii/article-abstract/10/3/569/144471"
+
+
+
+- title: "Electrochemical Capacitance Traces with Interlayer Spacing in Two‐dimensional Conductive Metal–Organic Frameworks"
+  authors_text: "Alice Y Su, Petru Apostol, Jiande Wang, Alexandru Vlad, Mircea Dincă*"
+  journal: "Angewandte Chemie 136 (18), e202402526"
+  year: 2024
+  image: "images/publications/16.png"
+  link: "https://onlinelibrary.wiley.com/doi/full/10.1002/ange.202402526"
+
+
+
+- title: "Humidity-mediated dual ionic–electronic conductivity enables high sensitivity in MOF chemiresistors"
+  authors_text: "Young-Moo Jo, Dong-Ha Kim, Jiande Wang, Julius J Oppenheim, Mircea Dinca*"
+  journal: "Journal of the American Chemical Society 146 (29), 20213-20220"
+  year: 2024
+  image: "images/publications/17.png"
+  link: "https://doi.org/10.1021/jacs.4c05343"
+
+
+
+- title: "Superior charge transport in Ni-diamine conductive MOFs"
+  authors_text: "Jiande Wang, Tianyang Chen, Mingyu Jeon, Julius J Oppenheim, Bowen Tan, Jihan Kim, Mircea Dinca*"
+  journal: "Journal of the American Chemical Society 146 (29), 20500-20507"
+  year: 2024
+  image: "images/publications/18.png"
+  link: "https://doi.org/10.1021/jacs.4c06935"
+
+
+
+- title: "Ionically conducting Li-and Na-phosphonates as organic electrode materials for rechargeable batteries"
+  authors_text: "Yan Zhang, Petru Apostol, Darsi Rambabu, Xiaolong Guo, Xuelian Liu, Xiaodong Lin, Haijiao Xie, Xiaohua Chen, Koen Robeyns, Jiande Wang*, Junzhong Wang*, Alexandru Vlad*"
+  journal: "Chemical Science 16 (4), 1819-1825"
+  year: 2025
+  image: "images/publications/19.png"
+  link: "https://pubs.rsc.org/sc/article-abstract/16/4/1819/870364"
+
+
+
+- title: "High-energy, high-power sodium-ion batteries from a layered organic cathode"
+  authors_text: "Tianyang Chen, Jiande Wang, Bowen Tan, Kimberly J Zhang, Harish Banda, Yugang Zhang, Dong-Ha Kim, Mircea Dinca*"
+  journal: "Journal of the American Chemical Society 147 (7), 6181-6192"
+  year: 2025
+  image: "images/publications/20.png"
+  link: "https://pubs.acs.org/doi/abs/10.1021/jacs.4c17713"
+
+
+
+- title: "Continuous and reversible tuning of inter-layer spacings in two-dimensional conductive metal organic frameworks"
+  authors_text: "Gopi MR Dontireddy, Satya Prakash Suman, Jose L Merino-Gardea, Ahad Hussain Javed, Jiande Wang, Tianyang Chen, Stavroula Kampouri, Harish Banda*"
+  journal: "Journal of Materials Chemistry A 13 (12), 8734-8741"
+  year: 2025
+  image: "images/publications/21.png"
+  link: "https://pubs.rsc.org/ta/article-abstract/13/12/8734/875427"
+
+
+
+- title: "Amorphous coordination polymers for versatile Mg2+, Ca2+, Sr2+, Ba2+, and Zn2+ cation storage"
+  authors_text: "Xiaolong Guo, Robert Markowski, Ashley Black, Petru Apostol, Darsi Rambabu, Olivera Lužanin, Tjaša Pavčnik, Damien Monti, Mengyuan Du, Da Tie, Xiaodong Lin, Vasudeva Rao Bakuru, Raphaël Delogne, Koen Robeyns, Laura Simonelli, Jean-François Gohy, Jan Bitenc*, Jiande Wang*, Alexandre Ponrouch*, Alexandru Vlad*"
+  journal: "Energy & environmental science 18 (20), 9114-9124"
+  year: 2025
+  image: "images/publications/22.png"
+  link: "https://pubs.rsc.org/ee/article-abstract/18/20/9114/891384"
+
+
+
+- title: "Compatibility Integrated Sulfide‐Based Cathode and Electrolyte for High‐Energy Solid‐State Sodium Batteries"
+  authors_text: "Hewei Xu, Xiaodong Lin*, Hong Chang, Petru Apostol, Jiande Wang, Xuelian Liu, Xiaozhe Zhang, Da Tie, Alexandru Vlad*"
+  journal: "Chinese Journal of Chemistry 44 (1), 73-79 "
+  year: 2026
+  image: "images/publications/23.png"
+  link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/cjoc.70313"
+
+
+
+- title: "SU-102 Is a Versatile Anionic Quasi-Solid Electrolyte for Fast Li+, Na+, and Al3+ Transport"
+  authors_text: "Zhentao Yang, Jiande Wang, Julius J Oppenheim, Mircea Dincă*"
+  journal: "ACS Energy Letters 11 (2), 2078-2082"
+  year: 2026
+  image: "images/publications/24.png"
+  link: "https://pubs.acs.org/doi/abs/10.1021/acsenergylett.5c03891"
+
+
+
+- title: "A Single-Phase Mixed Ion-Electron Conducting Metal–Organic Framework"
+  authors_text: "Petru Apostol, Xiaodong Lin, Simon M-M Dubois, Yan Zhang, Robert Markowski, Xiaolong Guo, Jiande Wang, Wenjie Shi, Laura Caputo, Da Tie, Viliam Frano, Darsi Rambabu, Vasudeva Rao Bakuru, Koen Robeyns, Mircea Dinca, Pulickel M Ajayan, Jean-Christophe Charlier, Alexandru Vlad*"
+  journal: "Journal of the American Chemical Society 148 (4), 4339-4348"
+  year: 2026
+  image: "images/publications/25.png"
+  link: "https://pubs.acs.org/doi/abs/10.1021/jacs.5c18105"
+
+
+
+- title: "Tunable and highly sensitive functionalized carbon-nanotube-based integrated systems for chemical gas sensing"
+  authors_text: "Jaekang Song, Dong-Ha Kim, Jan Tiepelt, Young-Moo Jo, Graham McGrath, Michael Song, Tianyang Chen, Jiande Wang, Alicia Coto, Sundar Palani, Dooyong Koh, Samuel Fuller, Max Shulaker, Mircea Dincă*, Marc Baldo*"
+  journal: "Nature Sensors 1 (3), 252-260"
+  year: 2026
+  image: "images/publications/26.png"
+  link: "https://www.nature.com/articles/s44460-026-00037-z"
+
+
+
+- title: "Machine Learning‐Guided Design of a Flexible Highly Conductive Additive‐Free Polymer Cathode"
+  authors_text: "Yan Zhang, Xuelian Liu, Yichen Wei, Weiran Wang, Lu Bai, Alexandru Vlad*, Junzhong Wang*, Jiande Wang*"
+  journal: "Angewandte Chemie International Edition 65 (12), e25729"
+  year: 2026
+  image: "images/publications/27.png"
+  link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202525729"
+
+
+
+- title: "A metal-free cathode for high-performance potassium-ion batteries under ambient and sub-zero temperatures"
+  authors_text: "Bowen Tan, Tianyang Chen, Jiande Wang, Mircea Dincă*"
+  journal: "Watt 1 (1), 5"
+  year: 2026
+  image: "images/publications/28.png"
+  link: "https://link.springer.com/article/10.1007/s44503-026-00005-1"
+
+
+
+- title: "Interwoven Phase Stabilization in Ni-Rich Cathode Material via Nanoparticle-Seeded Synthesis"
+  authors_text: "Chuwei Zhang, Jianan Zhang, Jiande Wang, Maanasa Bhat, Sili Deng*"
+  journal: "ACS Applied Materials & Interfaces 18 (17), 24378-24386"
+  year: 2026
+  image: "images/publications/29.png"
+  link: "https://pubs.acs.org/doi/abs/10.1021/acsami.5c24928"
+
+
+
+- title: "Single-Crystalline, Semiconductive Layered Organic Cathode Powers High-Energy All-Solid-State Batteries"
+  authors_text: "Junyong Mo, Jiande Wang, Mircea Dincă*"
+  journal: "ACS Central Science 12 (5), 695-703"
+  year: 2026
+  image: "images/publications/30.png"
+  link: "https://pubs.acs.org/acscii/article-abstract/12/5/695/5070113"
