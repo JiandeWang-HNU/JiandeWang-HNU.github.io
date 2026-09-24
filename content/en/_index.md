@@ -12,7 +12,7 @@ about_us: |
 
 biography: | 
   <div class="p-name">Jiande Wang</div>
-  <div class="p-role">Professor At School of Materials Science and Engineering, Hunan University</div>
+  <div class="p-role">Professor at College of Materials Science and Engineering, Hunan University</div>
   
   Jiande was born in Shandong, China. He received his B.S. (2009–2013) and M.S. (2013–2016) degrees in Materials Science and Engineering from Hunan University, where he developed a strong interest in energy storage materials. He then moved to Belgium and obtained his Ph.D. from the Université catholique de Louvain (UCLouvain) in 2021, under the supervision of Prof. Alexandru Vlad, focusing on organic cathode materials for electrochemical energy storage. 
   
